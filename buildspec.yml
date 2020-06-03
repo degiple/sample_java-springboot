@@ -1,10 +1,9 @@
 version: 0.2
 
-env:
-  variables:
-    JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64"
-
 phases:
+  pre_install:
+    runtime-versions:
+      java: corretto8
   install:
     commands:
       - echo Entered the install phase...
