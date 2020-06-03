@@ -1,10 +1,9 @@
 version: 0.2
 
 phases:
-  pre_install:
+  install:
     runtime-versions:
       java: corretto8
-  install:
     commands:
       - echo Entered the install phase...
       - apt-get update -y
