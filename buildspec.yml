@@ -24,4 +24,4 @@ phases:
 
 artifacts:
   files:
-    - target/messageUtil-1.0.jar
+    - target/spring-boot-0.0.1-SNAPSHOT.jar
