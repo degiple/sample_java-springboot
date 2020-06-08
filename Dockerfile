@@ -1,3 +1,5 @@
+# With corretto:8
+
 FROM alpine:latest
 
 RUN wget -c -O amazon-corretto-8-jre-8.252.09.1-r0.apk https://d3pxv6yz143wms.cloudfront.net/ea/8.252.09.1/amazon-corretto-8-jre-8.252.09.1-r0.apk && \
